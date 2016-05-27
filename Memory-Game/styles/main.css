@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.main-header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color:  rgb(106, 106, 106);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  font-family: 'Josefin Sans';
+  border-bottom: 1px solid  rgb(106, 106, 106);
+}
+.main-header a, li{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  flex-basis: 20%;
+  text-align: center;
+}
+.main-header a:hover {
+  background-color:  rgb(245, 87, 87);
+  transition: .5s ease;
+  padding: 5%;
+}
+.flex-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container, .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: 1%;
+  font-family: 'Josefin Sans';
+}
+.container h1 {
+  color: rgb(245, 87, 87);
+  font-size: 2.5em;
+}
+.container h2 {
+  align-self: flex-start;
+  margin-left: 1.5%;
+  font-size: 2em;
+  font-family: 'Josefin Sans';
+}
+.container p {
+  max-width: 60%;
+  line-height: 1.8em;
+  font-size: 1.5em;
+  font-weight: 500;
+  align-self: flex-start;
+  margin: 0 1.5% 0 1.5%;
+  font-family: 'Playfair Display';
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 1%;
+}
+.contact {
+  background-color: rgb(106, 106, 106);
+  color: white;
+  flex: 1
+}
+.contact-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  font-family: 'Playfair Display';
+}
+.contact-nav {
+  text-align: center;
+  font-size: 1.1em;
+}
+.contact-nav a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.icon-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-contain img {
+  width: 30%
+}
+.col, col p {
+  flex-basis: 50%;
+  font-family: 'Playfair Display';
+  font-size: 1.1em;
+}
+.cards-container {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5%;
+  flex-wrap: wrap;
+}
+.cards-container p {
+  font-size: 3em;
+  text-align: center;
+}
+.name {
+  color: rgb(245, 87, 87);
+}
+.cards {
+  width: 10em;
+  height: 16em;
+  flex: 1 0 auto;
+  margin: 10%;
+  background-color: rgb(245, 243, 50);
+  border: 1px solid black;
+  border-radius: 5%;
+}
