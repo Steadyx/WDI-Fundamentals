@@ -56,6 +56,8 @@ function resetBoard() {
         winText.style.display = 'none';
         winScore.innerHTML = '';
         score = 0;
+        cardsInPlay = [];
+
       }
 
     } else {
