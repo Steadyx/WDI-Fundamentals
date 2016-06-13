@@ -4,7 +4,9 @@ body {
 }
 
 /* Header Section */
-
+#win{
+  display: block;
+}
 .main-header {
   display: flex;
   width: 100%;
@@ -43,7 +45,13 @@ body {
 }
 
 /* Two classes share same attributes - Begining of Section Two */
-
+.win-match{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: none;
+}
 .heading {
   display: block;
   width: 100%;
@@ -145,17 +153,12 @@ body {
 }
 .cards-container {
   max-width: 100%;
-  height: 40em;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 2em 0 2em 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: static;
 }
 .cards-container p {
   font-size: 3em;
@@ -170,7 +173,7 @@ body {
   max-width: 10em;
   max-height: 16em;
   flex: 1 0 auto;
-  margin: 5%;
+  margin: 8%;
   background-color: rgb(245, 243, 50);
   border: 1px solid black;
   border-radius: 5%;
